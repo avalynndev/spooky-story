@@ -27,16 +27,25 @@ export default function Home() {
       <div className="w-[500px] bg-black text-white border-none relative z-10 flex items-center justify-center h-full px-6 md:px-0">
         <div className="p-10 md:p-20 rounded-3xl text-center">
           <h1 className="text-5xl md:text-5xl font-bold horror-title text-white mb-8 tracking-wide vhs-effect">
-            Night at <br /> Ravenshade Manor
+            Choose Your Nightmare
           </h1>
           <p className="text-lg md:text-xl mb-10 max-w-lg mx-auto">
-            Venture into the manor where secrets linger and the unknown awaits.
+            Two tales await. Which darkness will you face tonight?
           </p>
-          <Link href="/story">
-            <Button className="relative px-10 py-4 text-lg font-bold neon-btn">
-              Begin <Icon name="play" />
-            </Button>
-          </Link>
+
+          <div className="flex flex-col gap-4 items-center">
+            <Link href="/story?name=ravenshade">
+              <Button className="relative px-10 py-4 text-lg font-bold neon-btn mb-2">
+                Ravenshade Manor <Icon name="play" />
+              </Button>
+            </Link>
+
+            <Link href="/story?name=it">
+              <Button className="relative px-10 py-4 text-lg font-bold neon-btn">
+                The Thing in the Drain <Icon name="play" />
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
 

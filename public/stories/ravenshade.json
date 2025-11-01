@@ -1,0 +1,213 @@
+{
+  "title": "Ravenshade Manor",
+  "description": "A haunting interactive horror story set in the abandoned Ravenshade Manor on Halloween night. Every choice may be your last.",
+  "pages": [
+    {
+      "id": 0,
+      "text": "Halloween night. You find the ancient gate afar. Beyond, Ravenshade Manor stands dark, a flicker of light in a window is seen. Your phone dies suddenly.",
+      "image": "0.jpg",
+      "options": [
+        { "text": "Step through the gate", "next": 1 },
+        { "text": "Circle around the house to the back", "next": 2 },
+        { "text": "Call out into the darkness", "next": 3 }
+      ]
+    },
+    {
+      "id": 1,
+      "text": "As you approach. Silence presses in. The air smells faintly of smoke and something old.",
+      "image": "1.png",
+      "options": [
+        { "text": "Enter the foyer", "next": 4 },
+        { "text": "Knock loudly on the door", "next": 5 },
+        { "text": "Step back and wait", "next": 6 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Around back, moonlight reveals strange symbols carved into the walls. A faint noise comes from the basement door.",
+      "image": "2.png",
+      "options": [
+        { "text": "Open the basement door", "next": 7 },
+        { "text": "Circle back to front gate", "next": 0 },
+        { "text": "Trace the symbols on the wall", "next": 8 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Your voice fades quickly. No answer, but faint footsteps echo from the woods nearby.",
+      "image": "3.jpg",
+      "options": [
+        { "text": "Follow the footsteps", "next": 9 },
+        { "text": "Run back to the gate", "next": 1 },
+        { "text": "Hide behind a tree", "next": 10 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Inside, shadows cling to the walls. A faint melody plays from somewhere unseen, slow and haunting.",
+      "image": "4.png",
+      "options": [
+        { "text": "Follow the melody", "next": 11 },
+        { "text": "Search the dark hallway", "next": 12 },
+        { "text": "Ascend the grand staircase", "next": 13 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Your knocking echoes, but no response.",
+      "image": "5.jpg",
+      "options": [
+        { "text": "Try the side windows", "next": 14 },
+        { "text": "Wait and listen carefully", "next": 15 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Waiting only deepens the silence. Suddenly your heart races as a whisper moves past your ear. Unnoticeable but sudden.",
+      "image": "1.png",
+      "options": [
+        { "text": "Spin around and confront", "next": 16 },
+        { "text": "Flee back through the gate", "next": 17 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "The basement door creaks as it opens. Darkness covers everything; faint breathing noises from within.",
+      "image": "7.webp",
+      "options": [
+        { "text": "Descend carefully", "next": 18 },
+        { "text": "Shut the door and step away", "next": 2 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "The symbols glow faintly under your touch. The ground trembles. The walls seem to pulse like a heartbeat.",
+      "image": "8.jpg",
+      "options": [
+        { "text": "Step back quickly", "next": 3 },
+        { "text": "Press deeper into the garden", "next": 19 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Following the footsteps leads to a clearing with a broken doll half-buried in leaves. A chill runs through your spine.",
+      "image": "9.webp",
+      "options": [
+        { "text": "Pick up the doll", "next": 20 },
+        { "text": "Run back to the gate", "next": 1 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "You crouch as shadows dance in the moonlit forest. Eyes appear briefly, watching.",
+      "image": "10.jpg",
+      "options": [
+        { "text": "Hold still and breathe softly", "next": 21 },
+        { "text": "Sprint toward the house", "next": 1 }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "The melody draws you to an old piano. Keys press down themselves in a slow, chilling tune.",
+      "image": "11.webp",
+      "options": [
+        { "text": "Play a key and wait", "next": 22 },
+        { "text": "Step away quietly", "next": 13 }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "The hallway narrows, the walls moist and smelling of earth. Drops of water echo somewhere ahead.",
+      "image": "12.jpg",
+      "options": [
+        { "text": "Keep walking forward", "next": 23 },
+        { "text": "Go back to the foyer", "next": 4 }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Upstairs, doors creak under a cold breath trembling the wood. You hear a child's laughter faintly.",
+      "image": "13.jpg",
+      "options": [
+        { "text": "Find the source of laughter", "next": 24 },
+        { "text": "Head to the attic door", "next": 25 },
+        { "text": "Descend the stairs quickly", "next": 4 }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "Windows rattle, but none will open. The house settles with a low groan.",
+      "image": "14.jpg",
+      "options": [
+        { "text": "Check for a cellar hatch", "next": 7 },
+        { "text": "Circle back to door", "next": 5 }
+      ]
+    },
+    {
+      "id": 15,
+      "text": "Listening carefully, you hear faint scratching from inside the walls.",
+      "image": "5.jpg",
+      "options": [
+        { "text": "Knock on the wall", "next": 26 },
+        { "text": "Step back slowly", "next": 4 }
+      ]
+    },
+    {
+      "id": 16,
+      "text": "You whirl but see only empty air. Yet the hair on your neck rises as a cold hand brushes past.",
+      "image": "16.jpg",
+      "options": [
+        { "text": "Run toward the gate", "next": 17 },
+        { "text": "Stand frozen", "next": 27 }
+      ]
+    },
+    {
+      "id": 17,
+      "text": "You escape the manor grounds, heart pounding. The gate slams shut behind you. You are safe, for now.",
+      "image": "17.jpg",
+      "options": [{ "text": "RESTART", "next": null }]
+    },
+    {
+      "id": 18,
+      "text": "The basement stairs creak under faint footsteps. Darkness nearly swallows you whole.",
+      "image": "22.webp",
+      "options": [
+        { "text": "Keep going down", "next": 34 },
+        { "text": "Flee back up", "next": 2 }
+      ]
+    },
+    {
+      "id": 19,
+      "text": "The garden path twists, the air thickens. A distant bell tolls—somewhere beyond the trees.",
+      "image": "2.png",
+      "options": [{ "text": "Follow the bell", "next": 29 }]
+    },
+    {
+      "id": 20,
+      "text": "The doll’s button eyes seem to glint. Touching it makes faint giggling fill the air.",
+      "image": "20.png",
+      "options": [
+        { "text": "Keep the doll", "next": 30 },
+        { "text": "Throw the doll away", "next": 3 }
+      ]
+    },
+    {
+      "id": 21,
+      "text": "You wait as the forest falls into silence. Then a distant scream shatters the calm.",
+      "image": "10.jpg",
+      "options": [
+        { "text": "Run towards the scream", "next": "jumpscare" },
+        { "text": "Run to the manor", "next": 1 }
+      ]
+    },
+    {
+      "id": 25,
+      "text": "The attic door creaks open meagerly to a frozen room filled with dust and cobwebs. Something moves in the corner.",
+      "image": "25.jpg",
+      "options": [
+        { "text": "Approach the movement", "next": "jumpscare" },
+        { "text": "Leave the attic", "next": 13 }
+      ]
+    }
+  ]
+}
