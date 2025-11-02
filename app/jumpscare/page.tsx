@@ -32,12 +32,6 @@ export default function Jumpscare() {
     };
 
     attiva();
-
-    const timer = setTimeout(() => {
-      router.push("/end");
-    }, 112500);
-
-    return () => clearTimeout(timer);
   }, [router, play]);
 
   return (
