@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { TextGenerateEffect } from "@/components/textgen";
 import useSound from "use-sound";
@@ -18,9 +18,6 @@ type StoryJSON = { title: string; description?: string; pages: Scene[] };
 
 export default function Story() {
   const router = useRouter();
-  const params = useSearchParams();
-  const nameParam = params?.get("name") ?? "ravenshade";
-
   const [story, setStory] = useState<StoryJSON | null>(null);
   const [currentPage, setCurrentPage] = useState<number>(0);
   const [loading, setLoading] = useState(true);
@@ -51,7 +48,7 @@ export default function Story() {
     async function loadStory() {
       setLoading(true);
       try {
-        const res = await fetch(`/stories/${nameParam}.json`);
+        const res = await fetch(`/stories/ravenshade.json`);
         if (!res.ok) throw new Error("Story not found");
         const json: StoryJSON = await res.json();
         if (!cancelled) {
@@ -73,7 +70,7 @@ export default function Story() {
     return () => {
       cancelled = true;
     };
-  }, [nameParam]);
+  }, []);
 
   const handleChoice = (next: number | string | null) => {
     if (next === null) return setCurrentPage(0);
@@ -97,7 +94,7 @@ export default function Story() {
         <p>
           Could not load story.
           <br />
-          The shadows whisper that <code>/stories/{nameParam}.json</code> is
+          The shadows whisper that <code>/stories/ravenshade.json</code> is
           missing.
         </p>
       </div>
@@ -150,7 +147,7 @@ export default function Story() {
 
       <div className="relative z-10 mx-auto max-w-2xl text-center mt-10 text-gray-200 text-lg tracking-wide leading-relaxed">
         <motion.div
-          key={`text-${nameParam}-${currentPage}`}
+          key={`text-ravenshade-${currentPage}`}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}

@@ -49,7 +49,7 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col gap-4 items-center">
-            <Link href="/story?name=ravenshade">
+            <Link href="/story">
               <Button className="relative px-10 py-4 text-lg font-bold neon-btn mb-2">
                 Ravenshade Manor <PlayIcon />
               </Button>
