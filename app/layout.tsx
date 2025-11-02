@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
 import NoiseBackground from "@/components/bg";
-import FloatingNav from "@/components/nav";
 
 const horrorFont = localFont({
   src: "../public/OPTIBrianJamesBoldCond.woff",
@@ -31,7 +30,6 @@ export default function RootLayout({
       <body
         className={`${horrorFont.variable} ${pixelFont.className} bg-[#050505] bg-linear-to-b from-[#010101] via-[#061930] to-[#054E96]`}
       >
-        <FloatingNav />
         <div className="pointer-events-none fixed left-0 top-0 z-50 h-screen w-full">
           <div className="crt pointer-events-none fixed left-0 top-0 z-50 h-screen w-full" />
           <div className="lines" />

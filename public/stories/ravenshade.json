@@ -149,7 +149,7 @@
       "image": "5.jpg",
       "options": [
         { "text": "Knock on the wall", "next": 26 },
-        { "text": "Step back slowly", "next": 4 }
+        { "text": "Step back slowly", "next": 1 }
       ]
     },
     {
@@ -201,12 +201,114 @@
       ]
     },
     {
+      "id": 22,
+      "text": "Playing the key unlocks a hidden door behind the piano, revealing cold stairs going down.",
+      "image": "22.webp",
+      "options": [
+        { "text": "Descend stairs", "next": 28 },
+        { "text": "Leave the room", "next": 4 }
+      ]
+    },
+    {
+      "id": 23,
+      "text": "The hallway opens into the servant’s quarters, empty but disturbed. A chair rocks slowly.",
+      "image": "23.jpg",
+      "options": [
+        { "text": "Investigate the rocking chair", "next": 31 },
+        { "text": "Return to hallway", "next": 12 }
+      ]
+    },
+    {
+      "id": 24,
+      "text": "The laughter stops when you enter the room, replaced by a cold silence. The window blinds flutter, though no wind blows.",
+      "image": "24.jpg",
+      "options": [
+        { "text": "Search the room", "next": 32 },
+        { "text": "Flee downstairs", "next": 4 }
+      ]
+    },
+    {
       "id": 25,
       "text": "The attic door creaks open meagerly to a frozen room filled with dust and cobwebs. Something moves in the corner.",
       "image": "25.jpg",
       "options": [
         { "text": "Approach the movement", "next": "jumpscare" },
         { "text": "Leave the attic", "next": 13 }
+      ]
+    },
+    {
+      "id": 26,
+      "text": "Knocking causes tapping in reply. A rhythm, slow and deliberate.",
+      "image": "26.jpg",
+      "options": [{ "text": "Go back", "next": 1 }]
+    },
+    {
+      "id": 27,
+      "text": "Frozen in place, you sense breath on your neck. Slowly, the unseen presence loosens its grip.",
+      "image": "28.jpg",
+      "options": [
+        { "text": "Gather courage and explore other rooms", "next": 4 },
+        { "text": "Run away", "next": 17 }
+      ]
+    },
+    {
+      "id": 28,
+      "text": "The basement door slowly opens to a cold room covered in dust and cobwebs. Something moves in the corner.",
+      "image": "36.jpg",
+      "options": [
+        { "text": "Approach the movement", "next": "jumpscare" },
+        { "text": "Exit quickly", "next": 2 }
+      ]
+    },
+    {
+      "id": 29,
+      "text": "The bell’s toll fades as you reach a graveyard where no one rests. A cold hand grips yours.",
+      "image": "30.jpg",
+      "options": [
+        { "text": "Pull free and run", "next": 17 },
+        { "text": "Accept your fate", "next": "jumpscare" }
+      ]
+    },
+    {
+      "id": 30,
+      "text": "With the doll in hand, you feel a shiver run down your spine.",
+      "image": "20.png",
+      "options": [
+        { "text": "Stay and face whatever comes", "next": "jumpscare" },
+        { "text": "Drop the doll and run", "next": 17 }
+      ]
+    },
+    {
+      "id": 31,
+      "text": "The rocking chair abruptly stops. A sudden gust slams the door shut behind you.",
+      "image": "33.jpg",
+      "options": [
+        { "text": "Panic and try to open door", "next": "jumpscare" },
+        { "text": "Stand still and go back", "next": 4 }
+      ]
+    },
+    {
+      "id": 32,
+      "text": "The room feels colder. An old diary lies open on a dusty desk, its pages blank but for one word: 'RUN'.",
+      "image": "34.jpg",
+      "options": [{ "text": "Grab the diary", "next": 33 }]
+    },
+    {
+      "id": 33,
+      "text": "The tapping turns to frantic scratching. Suddenly, silence.",
+      "image": "34.jpg",
+      "options": [
+        { "text": "Explore deeper", "next": 4 },
+        { "text": "Exit quickly", "next": 17 }
+      ]
+    },
+    {
+      "id": 34,
+      "text": "The basement door slowly opens to a cold room covered in dust and cobwebs. Something moves in the corner.",
+      "image": "36.jpg",
+      "options": [
+        { "text": "Approach the movement", "next": "jumpscare" },
+        { "text": "Exit quickly", "next": 2 }
       ]
     }
   ]

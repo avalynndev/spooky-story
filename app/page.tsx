@@ -3,7 +3,22 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import { Icon } from "@/components/icons";
+
+function PlayIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={24}
+      height={24}
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M10 20H8V4h2v2h2v3h2v2h2v2h-2v2h-2v3h-2v2z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
 
 export default function Home() {
   return (
@@ -36,15 +51,16 @@ export default function Home() {
           <div className="flex flex-col gap-4 items-center">
             <Link href="/story?name=ravenshade">
               <Button className="relative px-10 py-4 text-lg font-bold neon-btn mb-2">
-                Ravenshade Manor <Icon name="play" />
+                Ravenshade Manor <PlayIcon />
               </Button>
             </Link>
 
-            <Link href="/story?name=it">
-              <Button className="relative px-10 py-4 text-lg font-bold neon-btn">
-                The Thing in the Drain <Icon name="play" />
-              </Button>
-            </Link>
+            <Button
+              className="relative px-10 py-4 text-lg font-bold neon-btn"
+              disabled
+            >
+              The Thing in the Drain <PlayIcon />
+            </Button>
           </div>
         </div>
       </div>
