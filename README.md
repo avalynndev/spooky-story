@@ -11,7 +11,7 @@
 
 This is a spooky story-mode game with roughly 30-40 different screens. Has jumpscares so be careful :)
 
-Here is the [video]() showcasing the abilities of this wonderful website.
+Here is the [video](https://www.youtube.com/watch?v=1oJBgkQVEHE) showcasing the abilities of this wonderful website.
 
 # Self Hosting Guide
 
